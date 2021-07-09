@@ -166,7 +166,6 @@ a:hover {
 
   #intro {
     background: url("../assets/intro-bg.jpg") 0 0 / cover;
-    background-repeat: no-repeat;
     background-position: right;
 
   }
