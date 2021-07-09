@@ -169,7 +169,8 @@ a:hover {
     background-image: url("../assets/intro-bg.jpg");
     background-position: right;
     background-attachment: fixed;
-    background-size: contain;
+    background-size: cover;
+    width: 100%;
 
 
   }
