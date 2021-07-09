@@ -71,6 +71,7 @@ a:hover {
 
   .sections {
     padding-top: 10rem;
+    width: 85%;
   }
 
   .headers {
@@ -345,8 +346,9 @@ a:hover {
   }
 
   .button {
-    font-size: 2.5rem;
-    width: 500px;
+    font-size: 3rem;
+    width: 700px;
+    padding: 2rem;
   }
 
 }
@@ -377,11 +379,11 @@ a:hover {
 @media only screen and (max-width: 991px) {
 
   #harmonogram {
-    width: 70%;
+    width: 85%;
   }
 
   #payments {
-    width: 70%;
+    width: 85%;
   }
 
   #medaila > img {
@@ -400,7 +402,7 @@ a:hover {
 @media only screen and (max-width: 991px) {
 
   #registration {
-    width: 70%;
+    width: 85%;
   }
 }
 
