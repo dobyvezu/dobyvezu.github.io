@@ -165,10 +165,8 @@ a:hover {
 @media only screen and (max-width: 991px) {
 
   #intro {
-    background-position: center;
-    background-image: url("../assets/tower2.jpg");
+    background: url("../assets/intro-bg.jpg") 0 0 / cover;
     background-repeat: no-repeat;
-    background-size: cover;
 
   }
 
