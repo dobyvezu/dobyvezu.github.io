@@ -165,11 +165,11 @@ a:hover {
 @media only screen and (max-width: 991px) {
 
   #intro {
+    height: 100%;
     background-image: url("../assets/intro-bg.jpg");
-    background-position: center center;
-    background-repeat: no-repeat;
+    background-position: right;
     background-attachment: fixed;
-    background-size: cover;
+    background-size: contain;
 
 
   }
