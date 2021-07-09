@@ -164,6 +164,10 @@ a:hover {
 
 @media only screen and (max-width: 991px) {
 
+  #intro {
+  background-position: right;
+
+  }
 
   #intro-heading h1 {
     font-size: 6rem;
