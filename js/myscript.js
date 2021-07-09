@@ -12,3 +12,7 @@ function smoothScrollInfo(){
         behavior: 'smooth'
     });
 }
+
+$("navbar").click(function(e){
+   e.stopPropagation();
+})
