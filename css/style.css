@@ -185,6 +185,7 @@ a:hover {
 
   #intro-heading {
     margin-top: 70%;
+    border: 0;
     border-top: 3px solid #FFFFFF;
     border-bottom: 3px solid #FFFFFF;
   }
