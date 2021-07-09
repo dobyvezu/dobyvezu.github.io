@@ -185,6 +185,8 @@ a:hover {
 
   #intro-heading {
     margin-top: 70%;
+    border-top: 3px solid #FFFFFF;
+    border-bottom: 3px solid #FFFFFF;
   }
 
   #scroll-down > img {
@@ -435,6 +437,7 @@ a:hover {
 
   .footer {
     font-size: 2.5rem;
+    margin-top: 2rem;
   }
 
   .footer a {
@@ -445,5 +448,9 @@ a:hover {
 
   .footer li {
     line-height: 5rem;
+  }
+
+  #reg-button {
+    margin-top: 2rem;
   }
 }
