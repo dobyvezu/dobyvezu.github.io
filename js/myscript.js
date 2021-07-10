@@ -9,7 +9,7 @@ function smoothScrollProp(){
 
 function smoothScrollInfo(id){
   let yOffset = -50;
-  if( /Android|webOS|iPhone|iPod|BlackBerry/i.test(navigator.userAgent) ) {
+  if( /Android|webOS|iPhone|iPod|iPad|BlackBerry/i.test(navigator.userAgent) ) {
     yOffset = -750;
 }
   const element = document.getElementById(id);
