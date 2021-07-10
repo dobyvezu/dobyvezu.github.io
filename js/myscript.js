@@ -7,19 +7,20 @@ function smoothScrollProp(){
     });
 }
 
-function smoothScrollInfo(){
-    document.querySelector('#info').scrollIntoView({
-        behavior: 'smooth'
-    });
+function smoothScrollInfo(id){
+  let yOffset = -50;
+  if( /Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent) ) {
+    yOffset = -700;
+}
+  const element = document.getElementById(id);
+  const y = element.getBoundingClientRect().top + window.pageYOffset + yOffset;
+
+  window.scrollTo({top: y, behavior: 'smooth'});
 }
 
-$('.nav-link').click(function(e){
-    let divCoords = $(e.target.hash).offset();
-    let height = $('header').height();
-    e.preventDefault();
-    window.scrollTo({
-    left: divCoords.left,
-    top: divCoords.top - height,
-    behavior: 'smooth'
-    });
+$(document).ready(function () {
+  $(document).click(function () {
+       $('.navbar-collapse').collapse('hide');
+
+  });
 });
