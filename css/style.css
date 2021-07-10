@@ -477,15 +477,15 @@ a:hover {
 @media only screen and (max-width: 991px) {
 
   #partners img {
-    width: 350px;
-    height: 300px;
+    width: 250px;
+    height: 200px;
   }
 
   .center-logo {
     padding:0;
   }
   #h3-partners {
-    margin-top: 10rem;
+    margin-top: 30rem;
   }
 }
 
