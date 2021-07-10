@@ -455,3 +455,39 @@ a:hover {
     margin-top: 2rem;
   }
 }
+
+#partners img:hover {
+  border-radius: 3%;
+  cursor: auto;
+ }
+
+.center-logo {
+  padding-right: 13rem;
+  padding-left: 2rem;
+}
+
+#h3-partners {
+  margin-top: 3rem;
+}
+
+.last-row {
+  padding-bottom: 5rem;
+}
+
+@media only screen and (max-width: 991px) {
+
+  #partners img {
+    width: 350px;
+    height: 300px;
+  }
+
+  .center-logo {
+    padding:0;
+  }
+  #h3-partners {
+    margin-top: 10rem;
+  }
+}
+
+
+
