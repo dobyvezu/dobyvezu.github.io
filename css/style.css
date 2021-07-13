@@ -474,6 +474,10 @@ a:hover {
   padding-bottom: 5rem;
 }
 
+.profidoors {
+  padding-top: 2rem;  
+}
+
 @media only screen and (max-width: 991px) {
 
   #partners {
@@ -491,6 +495,10 @@ a:hover {
 
   #h3-partners {
     margin-top: 13rem;
+  }
+  
+  .profidoors {
+  padding-top: 5rem;  
   }
 }
 
