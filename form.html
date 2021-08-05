@@ -3,12 +3,10 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Dobrovolnici formular</title>
+    <title>Registrácia dobrovoľníkov</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
   </head>
   <body>
-    <!-- modify this form HTML and place wherever you want your form -->
-
 
     <form id="fs-frm" name="dobrovolnici-form" accept-charset="utf-8" action="https://formspree.io/f/xyylndlj"
           method="POST">
@@ -21,14 +19,19 @@
         <input type="email" name="email" id="email-address" placeholder="email@domena.xy" required="">
         <label for="shirt">Veľkosť trička</label>
         <select name="tricko" required="" id="shirt">
-          <option value="Select" selected="" disabled="">Vyber veľkosť</option>
+          <option selected="" disabled="">Vyber veľkosť</option>
           <option value="XS">XS</option>
           <option value="S">S</option>
           <option value="M">M</option>
           <option value="L">L</option>
           <option value="XL">XL</option>
         </select>
-        <input type="checkbox" id="confirmation" name="suhlas so spracovanim udajov" value="Suhlasi" style="float: left;" required="">
+        <select name="kedy pridem pomoct" required="" id="shirt">
+          <option selected="" disabled="">Kedy nám chceš pomôcť?</option>
+          <option value="pred-pretekmi">Pred pretekmi</option>
+          <option value="v-den-pretekov">V deň pretekov</option>
+          <option value="aj-pred-aj-pocas">Prídem aj pred pretekmi aj počas!</option>
+        <input type="checkbox" id="confirmation" name="suhlas so spracovanim udajov" value="suhlasi" style="float: left;" required="">
         <label for="suhlas">Súhlasím so spracovaním osobných údajov za účelom spätného kontaktovania ohľadom
         dobrovoľníctva na preteku DOBY VEŽU.</label>
       <input type="submit" id="submit" value="Registrovať">
@@ -117,6 +120,9 @@
         display: inline-block;
         width: auto;
         margin: 0 .5em 0 0 !important;
-      }</style>
+      }
+
+    </style>
+
   </body>
 </html>
