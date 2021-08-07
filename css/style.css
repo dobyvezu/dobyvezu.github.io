@@ -475,7 +475,11 @@ a:hover {
 }
 
 .profidoors {
-  padding-top: 3.5rem;
+  padding-top: 5rem;
+}
+
+.active-planet {
+  margin-top: 3rem;
 }
 
 @media only screen and (max-width: 991px) {
@@ -498,9 +502,10 @@ a:hover {
   }
 
   .profidoors {
-  padding-top: 10rem;  
+  padding-top: 10rem;
   }
 }
+
 
 
 
